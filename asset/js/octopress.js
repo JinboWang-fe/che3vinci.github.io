@@ -116,7 +116,7 @@ $('document').ready(function() {
   addCodeLineNumbers();
   getNav();
   if(isAddSildbar){
-    addSidebarToggler();
+//    addSidebarToggler();
   }else{
     $('body').addClass('sidebar-footer');
   }
