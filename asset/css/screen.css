@@ -94,15 +94,18 @@ html {
 ol,
 ul {
     list-style: none;
-    margin: 30px;
+    margin-left: 30px;
 }
 
 table {
     border-collapse: collapse;
     border-spacing: 1;
     border: 1px solid;
+    margin-bottom: 30px;
 }
-
+p.span.pubdate{
+    margin-right: 40px;
+}
 caption,
 th,
 td {
@@ -777,8 +780,8 @@ body.sidebar-footer .toggle-sidebar {
     }
     #content {
         overflow: visible;
-        margin-right: 240px;
-        margin-left: 240px;
+        margin-right: 220px;
+        margin-left: 220px;
         position: relative
     }
     .no-sidebar #content {
@@ -867,8 +870,8 @@ body.sidebar-footer .toggle-sidebar {
 @media only screen and (min-width: 768px) {
     ul,
     ol {
-        margin-left: 0;
-        margin: 30px;
+/*        margin-left: 0;
+*/        margin-left: 30px;
     }
 }
 
