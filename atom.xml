@@ -4,7 +4,7 @@
   <title><![CDATA[jinbo]]></title>
   <link href="http://www.wangjinbo.me/atom.xml" rel="self"/>
   <link href="http://www.wangjinbo.me/"/>
-  <updated>2015-10-25T18:11:54+08:00</updated>
+  <updated>2015-10-25T19:38:08+08:00</updated>
   <id>http://www.wangjinbo.me/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -40,6 +40,8 @@
     <updated>2015-10-22T07:35:45+08:00</updated>
     <id>http://www.wangjinbo.me/14454705456773.html</id>
     <content type="html"><![CDATA[
+<span id="more"></span><!-- more -->
+
 <ul>
 <li>
 <a href="#toc_0">1.延后注册登陆时机</a>
@@ -191,9 +193,9 @@
     <updated>2015-10-12T22:04:11+08:00</updated>
     <id>http://www.wangjinbo.me/14446586518389.html</id>
     <content type="html"><![CDATA[
-<p>　　从念大学开始到开始工作头几年，我都一直使用vim作为主要的开发和编辑工具。为了实现IDE的自动补全功能，我尝试过各种自动补齐插件；为了实现一个悦目的colorschme，自己去学着写vimscript脚本来修改语法配色文件；又为了方便的编辑多个文件，研究buffer/tab/window等各种奇技淫巧....。我折腾这些的目的，很大程度是为了打造出一个IDE效果的开发环境。但经过无数尝试后，我才明白作为一个通用的editor，vim的确功能无比强大。但是要比专业的IDE（集成文本编辑，语法补齐，编译，调试，版本管理，发布等功能于一体的开发工具)相比，在项目开发方面，vim体验还是相对较弱。</p>
-
 <span id="more"></span><!-- more -->
+
+<p>　　从念大学开始到开始工作头几年，我都一直使用vim作为主要的开发和编辑工具。为了实现IDE的自动补全功能，我尝试过各种自动补齐插件；为了实现一个悦目的colorschme，自己去学着写vimscript脚本来修改语法配色文件；又为了方便的编辑多个文件，研究buffer/tab/window等各种奇技淫巧....。我折腾这些的目的，很大程度是为了打造出一个IDE效果的开发环境。但经过无数尝试后，我才明白作为一个通用的editor，vim的确功能无比强大。但是要比专业的IDE（集成文本编辑，语法补齐，编译，调试，版本管理，发布等功能于一体的开发工具)相比，在项目开发方面，vim体验还是相对较弱。</p>
 
 <p>　　在经历这漫长折腾，浪费大量时间后，我才领悟一个道理:“专注目标，而非工具”。无论使用何种工具(IDE，vim亦或者emacs）都是为了开发程序。工具只是实现程序开发这一目标的手段而已。当我们已经有能高效率完成项目开发这一目标的工具时，就没有必要把时间浪费在学习其他工具上。除非这个工具的确能带来生产力的显著提高。当然，我认为vim在项目开发方面很难做到比IDE有更高的开发效率。<br/>
 　　<br/>

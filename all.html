@@ -111,152 +111,15 @@ $(document).ready(function(event) {
 		 </header>
 	  	<div class="entry-content">
 		  	
-		  	<ul>
-<li>
-<a href="#toc_0">1.延后注册登陆时机</a>
-</li>
-<li>
-<a href="#toc_1">2. 安全性</a>
-<ul>
-<li>
-<a href="#toc_2">是否需要密码确认?</a>
-</li>
-<li>
-<a href="#toc_3">密码是否以密码模式展现</a>
-</li>
-<li>
-<a href="#toc_4">是否需要记住密码?</a>
-</li>
-<li>
-<a href="#toc_5">手机/用户名/邮箱注册？</a>
-</li>
-<li>
-<a href="#toc_6">验证码</a>
-</li>
-</ul>
-</li>
-<li>
-<a href="#toc_7">3. 方便性</a>
-</li>
-<li>
-<a href="#toc_8">4.登陆</a>
-</li>
-<li>
-<a href="#toc_9">5.解决方案</a>
-</li>
-<li>
-<a href="#toc_10">6. 刷脸登陆—新技术的发展</a>
-</li>
-</ul>
-
-
-<h1 id="toc_0">1.延后注册登陆时机</h1>
-
-<ul>
-<li>注册过程本身是有难度，容易造成用户流失。</li>
-<li>用户只想使用软件提供的服务，而不想登陆或者注册
-所以如果可以尽可能延长用户的注册或者登陆时机，在必须登陆时才让用户注册或者登陆。
-例如内容型的App（视频/音乐/小说等）用户即使不登陆或者注册也可以让用查看部分内容的信息。在用户想发表评论等操作时可以用户注册。
-如果App需要标识出用户是不用登陆也可以标识出唯一用户的。</li>
-</ul>
-
-<h1 id="toc_1">2. 安全性</h1>
-
-<h2 id="toc_2">是否需要密码确认?</h2>
-
-<p>没有必要进行密码确认。</p>
-
-<h2 id="toc_3">密码是否以密码模式展现</h2>
-
-<p>由于手机是私人设备，直接输入密码时由于身体的阻挡不容易被人偷窥到密码。所以可以不必设置为<strong>*</strong>状的密码模式。<br/>
-由于手机上输入文字不方便，防止密码输入出错。所以可以把显示密码。<br/>
-<img src="media/14454705456773/14457580528188.jpg" width = "50%" height = "50%"  align="center" ></p>
-
-<p>点击右侧的眼睛图标即可查看密码的明文。</p>
-
-<h2 id="toc_4">是否需要记住密码?</h2>
-
-<p>不用记住密码。如果token失效，用户重新登陆。</p>
-
-<h2 id="toc_5">手机/用户名/邮箱注册？</h2>
-
-<ol>
-<li>邮箱注册：使用邮箱的用户不多</li>
-<li>用户名注册：需要另外绑定邮箱和手机号才能找回密码</li>
-<li>手机注册：使用移动设备的人基本上人手一台手机。用手机号方便找回密码。所以手机号注册是比较方便安全的注册方法</li>
-</ol>
-
-<h2 id="toc_6">验证码</h2>
-
-<p>手机上没有验证码的必要。因为手机注册会通过短信进行确认。服务器端可以通过一定的规则对机器人登陆进行判断。</p>
-
-<h1 id="toc_7">3. 方便性</h1>
-
-<p>最方便的登陆模式就是不用登陆。<br/>
-1. 注册过程中，如果输入了已经注册的账号，则自动提示用户找回密码</p>
-
-<h1 id="toc_8">4.登陆</h1>
-
-<blockquote>
-<p>我刚从Appstore下载本软件一个软件，应该如何做?</p>
-</blockquote>
-
-<h1 id="toc_9">5.解决方案</h1>
-
-<p>要同时满足安全性和方便些的需求，我认为直接开放平台账号登陆是最优的解决方法。除非非常有必要否则不增加手机号注册/登陆的功能</p>
-
-<table>
-<thead>
-<tr>
-<th>方案</th>
-<th>原因</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>开放平台账号登陆</td>
-<td>1. <strong>快捷</strong> </br>- 直接登录，不用输入账号密码 </br> 2. <strong>安全</strong> </br>- 不用考虑找回密码的问题</br> - 不用考虑盗号问题</td>
-</tr>
-</tbody>
-</table>
-
-<p><img src="media/14454705456773/14457620733465.jpg" width = "270" height = "480" alt="图片名称" align=center /> <img src="media/14454705456773/14457627370964.jpg" width = "270" height = "480" alt="图片名称" align=center /></p>
-
-<h1 id="toc_10">6. 刷脸登陆—新技术的发展</h1>
-
-<p>随着新的生物鉴别技术的发展，以后</p>
-
-<table>
-<thead>
-<tr>
-<th>新技术</th>
-<th>使用App</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>人脸识别</td>
-<td>QQ安全</td>
-</tr>
-<tr>
-<td>指纹识别</td>
-<td>iphone touchID</td>
-</tr>
-<tr>
-<td>瞳孔识别</td>
-<td>xxx</td>
-</tr>
-</tbody>
-</table>
-
-<p>也许有一天，所有的产品的在账号认证方面方面能更加自然，更加方便且有更加安全。</p>
-
+		  	
 
 		</div>
 
-		
+		 
+		 <footer>
+      	<a rel="full-article" href="14454705456773.html#more">read more &rarr;</a>
+    	</footer>
+    	
 
 	</article>
  
@@ -268,9 +131,7 @@ $(document).ready(function(event) {
 		 </header>
 	  	<div class="entry-content">
 		  	
-		  	<p>　　从念大学开始到开始工作头几年，我都一直使用vim作为主要的开发和编辑工具。为了实现IDE的自动补全功能，我尝试过各种自动补齐插件；为了实现一个悦目的colorschme，自己去学着写vimscript脚本来修改语法配色文件；又为了方便的编辑多个文件，研究buffer/tab/window等各种奇技淫巧....。我折腾这些的目的，很大程度是为了打造出一个IDE效果的开发环境。但经过无数尝试后，我才明白作为一个通用的editor，vim的确功能无比强大。但是要比专业的IDE（集成文本编辑，语法补齐，编译，调试，版本管理，发布等功能于一体的开发工具)相比，在项目开发方面，vim体验还是相对较弱。</p>
-
-
+		  	
 
 		</div>
 
@@ -298,6 +159,15 @@ $(document).ready(function(event) {
 </footer>
 <script src="asset/chart/all-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"><div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?6bfe24ca47e9f7aefe3c10c78a37c026";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 
 </body>
 </html>
