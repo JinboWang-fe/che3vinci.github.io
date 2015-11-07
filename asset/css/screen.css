@@ -984,7 +984,9 @@ body>nav ul {
         *zoom: 1;
         float: left;
         display: block;
-        padding-top: .15em
+        padding-top: .15em;
+        margin-left: 45%
+
     }
     body>nav ul li {
         list-style-image: none;
