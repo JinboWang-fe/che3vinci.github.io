@@ -118,8 +118,13 @@ td {
 
 q,
 blockquote {
-    quotes: none
+    margin: 0 0 1.5em;
+    width: 96%;
+    padding: 0 10px;
+    border-left: 3px solid #ddd;
+    color: #777;
 }
+
 
 q:before,
 q:after,
