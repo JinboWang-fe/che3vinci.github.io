@@ -4,7 +4,7 @@
   <title><![CDATA[jinbo]]></title>
   <link href="http://www.wangjinbo.me/atom.xml" rel="self"/>
   <link href="http://www.wangjinbo.me/"/>
-  <updated>2015-11-08T14:55:36+08:00</updated>
+  <updated>2015-11-08T15:03:12+08:00</updated>
   <id>http://www.wangjinbo.me/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -42,7 +42,7 @@
 <p>第1步：把目录 Button A和Icon B设置为并列结构且设置为symbol 。<br/><br/>
 这样就会把A和B的样式作为symbol(模板样式）保存起来。<br/><br/>
     第2步:  把symbol Icon B重新变为目录。<br/><br/>
-    通过右侧属性栏symbol <q>Icon B</q>设置为“No symbol”  即可。<br/>
+    通过右侧属性栏symbol <q>Icon B</q>设置为“No symbol”  即可。<br/><br/>
    第3步:把目录Icon B拖入symbol  Button A中，然后通过右侧属性栏目把Icon B选中为symbol Icon B的即可。  </p>
 </blockquote>
 
