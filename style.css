@@ -5,14 +5,14 @@ html {
 .topnav { 
     text-align:center; 
     background-color:#EFEFEF; 
-    margin:0; 
+    margin:0em; 
     padding:1em; 
 }
 
 .topnav a {
     color:#777;
     text-decoration:none; 
-    border:0;
+    border:0em;
 }
 
 .topnav a:hover { 
@@ -32,9 +32,9 @@ html {
 body {
     font-family: 'Avenir Next', Helvetica, Georgia, serif;
     word-wrap: break-word;
-    margin: 0;
-    padding: 0;
-    border: 0;
+    margin: 0em;
+    padding: 0em;
+    border: 0em;
     vertical-align: baseline;
     overflow:hidden;
     background-color: #f2f2f2;
@@ -81,9 +81,9 @@ body {
 }
 
 #content {
-    width: 38.125em/*38.125em*/;
-    margin: 0 auto 0 auto;
-    padding: 1.875em 0 1.875em 0;
+    width: 38.125em;
+    margin: 0em auto 0em auto;
+    padding: 1.875em 0em 1.875em 0em;
 }
 
 /**
@@ -95,13 +95,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
     text-rendering: optimizeLegibility;
     line-height: 1;
-    margin: 0.5rem 0;
+    margin: 0.5rem 0em;
 }
 
 h1, h2, h3, h4, h5, h6 {
     text-rendering: optimizeLegibility;
     line-height: 1;
-    margin: 0.5rem 0;
+    margin: 0.5rem 0em;
 }
 
 h1, 
@@ -124,7 +124,7 @@ h6 { font-size: 0.85rem; }
  */
 
 p {
-	margin: 0 0 1.5em;
+	margin: 0em 0em 1.5em;
 }
 
 /**
@@ -134,9 +134,9 @@ p {
  */
 
 blockquote {
-    margin: 0 0 1.5em;
+    margin: 0em 0em 1.5em;
     width: 96%;
-    padding: 0 0.625em/*px*/;
+    padding: 0em 0.625em/*px*/;
     border-left: 0.1875em/*0.1875em*/ solid #ddd;
     color: #777;
 }
@@ -151,9 +151,9 @@ pre code {
 	word-wrap: normal;
 	white-space: pre-wrap;
     border: none;
-    padding: 0;
+    padding: 0em;
     background-color: transparent;
-    -webkit-border-radius: 0;
+    -webkit-border-radius: 0em;
 }
 
 pre {
@@ -218,7 +218,7 @@ a:hover {
 hr {
     width: 100%;
     margin: 3em auto;
-    border: 0;
+    border: 0em;
     color: #eee;
     background-color: #ccc;
     height: 0.0625em/*0.0625em*/;
@@ -233,7 +233,7 @@ hr {
 
 ol, ul {
     list-style-position: outside;
-    padding-left: 0;
+    padding-left: 0em;
     margin-left: 1.5em;
 }
 
@@ -242,7 +242,7 @@ ol li, ul li {
 }
 
 li p {
-    margin: 0.5em 0 0.5em;
+    margin: 0.5em 0em 0.5em;
 }
 
 ol ol, ol ul, ul ul, ul ol {
@@ -261,7 +261,7 @@ table {
     margin-bottom: 1.5em;
     border-bottom: 0.0625em solid #ddd;
     border-right: 0.0625em solid #ddd;
-    border-spacing: 0;
+    border-spacing: 0em;
 }
 
 table th {
@@ -352,7 +352,7 @@ figcaption {
  */
 
 .shadow {
-    -webkit-box-shadow: 0 0.125em 0.25em #999;
+    -webkit-box-shadow: 0em 0.125em 0.25em #999;
 }
 
 .source {
@@ -393,16 +393,16 @@ body {
 #wrapper {
     position: static;
     overflow: hidden;
-    color: #000;
+    color: #000em;
     width: 100%;
-    margin: 0 auto;
+    margin: 0em auto;
 }
 .footnotes {
     page-break-before: always;
 }
 #content {
-    margin: 0 auto;
-    padding: 0;
+    margin: 0em auto;
+    padding: 0em;
     width: 98%;
 }
 #top-fader, #bottom-fader {
@@ -423,7 +423,7 @@ code {
 }
 blockquote {
     border-left:0.1875em solid #ddd;
-    color: #000;
+    color: #000em;
 }
 ol {
     /*
@@ -431,8 +431,8 @@ ol {
      * markers won't get cut.
      */
     list-style-position: inside;
-    padding-left: 0;
-    margin-left: 0;
+    padding-left: 0em;
+    margin-left: 0em;
 }
 table {
     border-bottom: 0.0625em solid #ddd;
@@ -449,10 +449,10 @@ table td {
 }
 mark {
     background:transparent;
-    color: #000;
+    color: #000em;
 }
 .source {
-    color: #000;
+    color: #000em;
 }
 
 
