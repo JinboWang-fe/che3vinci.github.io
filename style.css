@@ -2,32 +2,6 @@ html {
     /* the line height value of 1.9 is fixed for a line height multiple of 1.4 in the text view */
     font: normal 106.2%/1.9 serif;
 }
-.topnav { 
-    text-align:center; 
-    background-color:#EFEFEF; 
-    margin:0em; 
-    padding:1em; 
-}
-
-.topnav a {
-    color:#777;
-    text-decoration:none; 
-    border:0em;
-}
-
-.topnav a:hover { 
-    color: #d54e21; 
-}
-
-.topnav-title a { 
-    font-size:130%; 
-}
-
-.topnav-links a { 
-    font-size:80%; 
-}
-
-
 
 body {
     font-family: 'Avenir Next', Helvetica, Georgia, serif;
@@ -83,7 +57,6 @@ body {
 #content {
     width: 38.125em;
     margin: 0em auto 0em auto;
-    padding: 1.875em 0em 1.875em 0em;
 }
 
 /**
@@ -364,12 +337,6 @@ figcaption {
 #wrapper {
     width: 99.9%;
 }
-#content {
-    width: 38.125em;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /* Mobile support */
 @media only screen and (max-device-width:64em/*1024px*/) {
     html {
@@ -380,7 +347,8 @@ figcaption {
         overflow: auto;
         position: relative;
     }
-}@media print {
+
+@media print {
 /* Printing support.
  * Override all printing colors to match the Light theme.
  */

@@ -1,7 +1,8 @@
 ---
-layout: default
-title: archive 
+layout: idxlayout
+title: archive
 ---
+<p style="text-align:center;font-size:2em" ><b>Archive</b></p>
 <section id="archive" class="long-list">
   {%for post in site.posts %}
     {% unless post.next %}
