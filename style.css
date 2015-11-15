@@ -55,7 +55,8 @@ body {
 }
 
 #content {
-    width: 38.125em;
+  /*  width: 38.125em;*/
+	
     margin: 0em auto 0em auto;
 }
 
@@ -338,7 +339,7 @@ figcaption {
     width: 99.9%;
 }
 /* Mobile support */
-@media only screen and (max-device-width:64em/*1024px*/) {
+@media only screen and (max-device-width:1024px) {
 	html {
         overflow: auto;
     }
@@ -347,10 +348,10 @@ figcaption {
         position: relative;
     }
 	#content {
-    width: 38.125em;
+    width:98%; 
     margin: 0em auto 0em auto;
 	}
 
-}
+
 
 
