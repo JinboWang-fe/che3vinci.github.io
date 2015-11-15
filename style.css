@@ -339,88 +339,18 @@ figcaption {
 }
 /* Mobile support */
 @media only screen and (max-device-width:64em/*1024px*/) {
-    html {
+	html {
         overflow: auto;
     }
-
     #wrapper {
         overflow: auto;
         position: relative;
     }
+	#content {
+    width: 38.125em;
+    margin: 0em auto 0em auto;
+	}
 
-@media print {
-/* Printing support.
- * Override all printing colors to match the Light theme.
- */
-img, pre, blockquote, table, figure {
-    page-break-inside: avoid;
-}
-body {
-    background-color:#fff;
-}
-#wrapper {
-    position: static;
-    overflow: hidden;
-    color: #000em;
-    width: 100%;
-    margin: 0em auto;
-}
-.footnotes {
-    page-break-before: always;
-}
-#content {
-    margin: 0em auto;
-    padding: 0em;
-    width: 98%;
-}
-#top-fader, #bottom-fader {
-    display: none;
-}
-hr {
-    color:#ddd;
-    background-color:#ddd;
-    -webkit-box-shadow:0em 0.0625em 0em #ddd;
-}
-pre {
-    background-color:transparent;
-    border: 0.0625em solid #ddd;
-}
-code {
-    background-color:transparent;
-    border: 0.0625em solid #ddd;
-}
-blockquote {
-    border-left:0.1875em solid #ddd;
-    color: #000em;
-}
-ol {
-    /*
-     * Override the list style when printing to ensure list
-     * markers won't get cut.
-     */
-    list-style-position: inside;
-    padding-left: 0em;
-    margin-left: 0em;
-}
-table {
-    border-bottom: 0.0625em solid #ddd;
-    border-right: 0.0625em solid #ddd;
-}
-table th {
-    background-color:transparent;
-    border-top: 0.0625em solid #ddd;
-    border-left: 0.0625em solid #ddd;
-}
-table td {
-    border-top: 0.0625em solid #ddd;
-    border-left: 0.0625em solid #ddd;
-}
-mark {
-    background:transparent;
-    color: #000em;
-}
-.source {
-    color: #000em;
 }
 
 
