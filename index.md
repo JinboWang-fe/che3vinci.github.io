@@ -1,12 +1,12 @@
 ---
 layout: idxlayout
-title: archive
+title: Articles
 ---
 <p style="text-align:center;font-size:2em" ><b>Archive</b></p>
 <section id="archive" class="long-list">
   {%for post in site.posts %}
     {% unless post.next %}
-      <h3>{{ post.date | date: '%Y' }}年 {{post.date|date:'%M'}}月</h3>
+      <h3>{{ post.date | date: '%Y' }}年 </h3>
       <ul class="this">
     {% else %}
       {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
