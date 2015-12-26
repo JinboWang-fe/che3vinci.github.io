@@ -12,7 +12,7 @@ title: Articles
     {% assign yearmonth = ym %}
     <h4>{{ ym }}</h4>
   {% endif %}
-  <li id="idxli"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  	<li id="idxli"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 {% endfor %}
 
 </section>
