@@ -58,7 +58,9 @@ body {
     width: 38.125em;
     margin: 0em auto 0em auto;
 }
-
+#idxli{
+    margin-left: 1em;
+}
 /**
  *
     Headings
