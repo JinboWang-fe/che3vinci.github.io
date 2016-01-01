@@ -58,9 +58,6 @@ body {
     width: 38.125em;
     margin: 0em auto 0em auto;
 }
-#idxli{
-    margin-left: 1em;
-}
 /**
  *
     Headings
@@ -139,16 +136,16 @@ pre {
     padding: 0.1875em/*0.1875em*/ 0.625em/*0.625em*/;
     -webkit-border-radius: 0.1875em/*0.1875em*/;
     background-color: #eee;
-    border: 0.0625em/*0.0625em*/ solid #ddd;
+    border: 0.0725em solid #ddd;
 }
 
 code {
 	white-space: nowrap;
 	font-family: monospace;
     padding: 0.125em/*0.125em*/;
-    -webkit-border-radius: 0.1875em/*0.1875em*/;
+    -webkit-border-radius: 0.1875em;
     background-color: #eee;
-    border: 0.0625em/*0.0625em*/ solid #ddd;
+    border: 0.0725em solid #ddd;
 }
 
 small {
