@@ -171,6 +171,7 @@ ol, ul {
 
 ol li, ul li {
     text-align: -webkit-match-parent;
+    list-style-type: none;
 
 }
 
