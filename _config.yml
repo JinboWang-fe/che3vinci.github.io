@@ -1,6 +1,5 @@
 baseurl: ""
 defaults:
-    -
         scope:
             path: ""
         values:
