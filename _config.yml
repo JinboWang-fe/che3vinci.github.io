@@ -1,3 +1,5 @@
+highligter: pygments
+mardown: redcarpet
 baseurl: ""
 defaults:
     -
