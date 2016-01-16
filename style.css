@@ -79,34 +79,15 @@ blockquote {
  *
  */
 
-/*code {
-    word-wrap: normal;
-    white-space: pre-wrap;
-    border: none;
-    padding: 0em;
-    background-color: transparent;
-    -webkit-border-radius: 0em;
-}*/
 
 code {
     white-space: pre-wrap;
-    width: 96%;
-    margin-bottom: 1.5em/*24px*/;
-    overflow: hidden;
-    padding: 0.1875em/*0.1875em*/ 0.625em/*0.625em*/;
-    -webkit-border-radius: 0.1875em/*0.1875em*/;
-    background-color: #eee;
-    border: 0.0725em solid #ddd;
-}
-
-/*code {
-    white-space: nowrap;
     font-family: monospace;
     padding: 0.125em;
     -webkit-border-radius: 0.1875em;
+    display: block;
     background-color: #eee;
-    border: 0.0725em solid #ddd;
-}*/
+}
 
 small {
     font-size: 65%;
@@ -271,7 +252,7 @@ caption {
 
 figure {
     display: block;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 figcaption {
