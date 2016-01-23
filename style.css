@@ -1,8 +1,4 @@
-html {
-/*
-    font:20px/1.7 "lucida grande","Microsoft YaHei", "WenQuanYi Micro Hei", sans - serif;
-*/
-}
+
 
 body {
     font-family:'Open Sans', 'Helvetica Neue', Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
@@ -84,7 +80,7 @@ code {
     white-space: pre-wrap;
     font-family: monospace;
     padding: 0.125em;
-    -webkit-border-radius: 0.1875em;
+    /*-webkit-border-radius: 0.1875em;*/
     display: block;
     background-color: #eee;
 }
@@ -135,7 +131,7 @@ hr {
     color: #eee;
     background-color: #ccc;
     height: 0.0625em/*0.0625em*/;
-    -webkit-box-shadow:0em 0.0625em/*0.0625em*/ 0em rgba(255, 255, 255, 0.75);
+    /*-webkit-box-shadow:0em 0.0625em 0em rgba(255, 255, 255, 0.75);*/
 }
 
 /**
@@ -184,9 +180,6 @@ table th {
     background-color: #eee;
     border-top: 0.0625em solid #ddd;
     border-left: 0.0625em solid #ddd;
-}
-
-table tr {
 }
 
 table td {
@@ -265,10 +258,10 @@ figcaption {
  Custom classes
  *
  */
-
+/*
 .shadow {
     -webkit-box-shadow: 0em 0.125em 0.25em #999;
-}
+}*/
 
 .source {
     text-align: center;
@@ -291,7 +284,7 @@ figcaption {
 	width:90%; 
 	margin: 0em auto 0em auto;
     }
-
+}
 
 
 
