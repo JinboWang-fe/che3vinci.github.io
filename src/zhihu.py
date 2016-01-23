@@ -112,11 +112,6 @@ def parse_profile(nick):
     except:
         log.info("exception happened when parse __sex__ " + url)
 
-
-
-
-
-
         """公司信息"""
     try:
         profile.company = bs.find('span',class_='employment item')['title']
@@ -345,5 +340,3 @@ if __name__ == '__main__':
         peoples.add(che3vinci)
     work()
     cursor.close()
-
-
