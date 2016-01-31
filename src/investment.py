@@ -15,7 +15,8 @@ for month in range(0,12*20):
 	months.append(month)
 	money = money + 1*np.power(1.01,month)
 	moneys.append(money)
-	_003 = _003 + 1*np.power(1.003,month)
+
+	_003 = _003 + 1*np.power(1.0083,month)
 	_003s.append(_003)
 	salarys.append(1*month)
 
@@ -33,7 +34,6 @@ ax.yaxis.set_major_locator(MultipleLocator(50))#50万为一个刻度
 plt.grid(True)
 plt.title('投资收入VS纯工资')
 plt.legend()
-plt.show()
 plt.show()
 
 ## 现金（工资+投资收入):
